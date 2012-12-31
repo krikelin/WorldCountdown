@@ -5,6 +5,9 @@ window.addEventListener('load', function (){
 	  "Twitter" //title
 	);*/
 	setPile();
+	document.ontouchstart = function(e){ 
+	    e.preventDefault(); 
+	};
 });
 function setPile() {
 	var hour = calcTime('Zelda', -8).getHours();
