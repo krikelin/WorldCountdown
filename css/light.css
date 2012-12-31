@@ -1,0 +1,7 @@
+body {
+	background-image: url('../img/bg.png'), url('../img/map.png');
+	background-repeat: repeat-x repeat-y, no-repeat;
+	background-size: auto, 100% 100%;
+	color: #EEEEEE;
+
+}
